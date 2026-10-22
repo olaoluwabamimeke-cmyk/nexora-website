@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b2a">
+  <meta name="description" content="NEXORA connects people with Nigerian businesses, products, services and opportunities.">
+  <title>NEXORA — Discover. Connect. Grow.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> A new way to discover local Nigerian businesses <a href="#businesses">Explore the directory <span aria-hidden="true">↗</span></a></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="NEXORA home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>NEXORA<span class="brand-dot">.</span><small>OPPORTUNITY NETWORK</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#businesses">Businesses</a><a href="#categories">Explore</a><a href="#how">How it works</a><a href="#about">Our mission</a>
+      <button class="nav-join" data-open-modal>List your business <span>↗</span></button>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> BUILT FOR THE NEXT NIGERIA</div>
+        <h1>Good things<br>grow <em>when we</em><br><span>connect.</span></h1>
+        <p class="hero-intro">Discover businesses, find useful services, and bring more attention to the people building something good in Nigeria.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#businesses">Explore businesses <span>↗</span></a>
+          <button class="button button-light" data-open-modal>Put your business on the map <span>＋</span></button>
+        </div>
+        <div class="hero-proof"><div class="proof-avatars"><b>N</b><b>G</b><b>+</b></div><p><strong>Made for local growth</strong><br><span>A growing space for Nigerian enterprise</span></p></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration representing connected businesses and opportunity">
+        <div class="art-topline"><span>THE CONNECTION EFFECT</span><span>01 / NIGERIA</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-core"><span class="core-symbol">N</span><strong>Local ideas.<br>Greater reach.</strong><small>OPPORTUNITY STARTS HERE</small></div>
+        <div class="float-card float-card-one"><span class="mini-icon green">↗</span><span><small>LOCAL BUSINESS</small><strong>More visibility</strong></span></div>
+        <div class="float-card float-card-two"><span class="mini-icon yellow">✳</span><span><small>COMMUNITY</small><strong>More connections</strong></span></div>
+        <div class="float-card float-card-three"><span class="mini-icon coral">◎</span><span><small>OPPORTUNITY</small><strong>Room to grow</strong></span></div>
+        <div class="art-foot"><span>PEOPLE</span><b>•</b><span>BUSINESSES</span><b>•</b><span>POSSIBILITY</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 — DISCOVER WHAT'S POSSIBLE</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="search-strip" aria-label="Search the directory">
+      <div><span class="search-label">YOUR NEXT CONNECTION</span><h2>What are you looking for?</h2></div>
+      <form id="searchForm" class="search-form">
+        <label class="sr-only" for="searchInput">Search businesses and services</label>
+        <span class="search-symbol">⌕</span><input id="searchInput" type="search" placeholder="Try “fashion”, “Ibadan”, “repairs”…">
+        <button type="submit">Search <span>↗</span></button>
+      </form>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> FIND YOUR SPACE</div><h2>Opportunity has<br><em>many starting points.</em></h2></div><p>From a nearby service to a new business connection, start with what you need today.</p></div>
+      <div class="category-grid">
+        <button class="category-card cat-green" data-category="Business & Services"><span class="category-number">01 / CONNECT</span><span class="category-icon">↗</span><h3>Businesses<br>& services</h3><span class="category-bottom">Discover local expertise <b>↗</b></span></button>
+        <button class="category-card cat-cream" data-category="Products & Marketplace"><span class="category-number">02 / SHOP</span><span class="category-icon">◇</span><h3>Products &<br>marketplace</h3><span class="category-bottom">Find products nearby <b>↗</b></span></button>
+        <button class="category-card cat-lilac" data-category="Agriculture"><span class="category-number">03 / SUPPLY</span><span class="category-icon">✳</span><h3>Agriculture<br>& food supply</h3><span class="category-bottom">Connect the supply chain <b>↗</b></span><span class="coming-soon">COMING SOON</span></button>
+        <button class="category-card cat-dark" data-category="Skills & Training"><span class="category-number">04 / LEARN</span><span class="category-icon">⌘</span><h3>Skills &<br>training</h3><span class="category-bottom">Build practical skills <b>↗</b></span><span class="coming-soon">COMING SOON</span></button>
+      </div>
+    </section>
+
+    <section class="section directory-section" id="businesses">
+      <div class="directory-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> THE BUSINESS DIRECTORY</div><h2>Discover the people<br><em>behind the business.</em></h2></div>
+        <button class="text-link" data-open-modal>Are you a business owner? <span>List your business ↗</span></button>
+      </div>
+      <div class="filters">
+        <div class="filter-tabs" id="filterTabs">
+          <button class="filter-tab active" data-filter="All">All listings</button>
+          <button class="filter-tab" data-filter="Technology & Digital Services">Digital</button>
+          <button class="filter-tab" data-filter="Fashion & Clothing">Fashion</button>
+          <button class="filter-tab" data-filter="Food & Restaurants">Food</button>
+          <button class="filter-tab" data-filter="Beauty & Personal Care">Beauty</button>
+        </div>
+        <label class="location-filter"><span>⌖</span><select id="locationFilter" aria-label="Filter by location"><option value="All">All locations</option><option>Ibadan</option><option>Lagos</option><option>Abuja</option><option>Osogbo</option></select></label>
+      </div>
+      <div class="sample-notice"><span>ⓘ</span> Preview listings below are demonstration data, not real or verified businesses.</div>
+      <div class="business-grid" id="businessGrid"></div>
+      <div class="directory-footer"><p id="resultCount">Showing sample listings</p><button class="button button-outline" id="clearFilters">Clear filters ↺</button></div>
+    </section>
+
+    <section class="manifesto" id="about">
+      <div class="manifesto-stamp">N<span>↗</span></div>
+      <div class="eyebrow"><span class="eyebrow-line"></span> WHY NEXORA EXISTS</div>
+      <h2>Big change can start<br>with a <em>small connection.</em></h2>
+      <p>Every small business deserves a chance to be discovered. Every community has talent worth finding. NEXORA is being built to make those connections easier — starting in Nigeria.</p>
+      <div class="manifesto-points"><div><span>01</span><strong>Make local businesses easier to find.</strong></div><div><span>02</span><strong>Open more doors to opportunity.</strong></div><div><span>03</span><strong>Help ideas and communities grow.</strong></div></div>
+    </section>
+
+    <section class="section how-section" id="how">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> SIMPLE BY DESIGN</div><h2>Three steps.<br><em>A stronger connection.</em></h2></div><p>NEXORA is designed to help customers and businesses find each other without the noise.</p></div>
+      <div class="steps-grid"><article class="step"><span class="step-no">01</span><div class="step-icon">⌕</div><h3>Discover</h3><p>Search by service, category, or location to find options that fit your needs.</p></article><article class="step"><span class="step-no">02</span><div class="step-icon">↔</div><h3>Connect</h3><p>Explore a listing and use available public contact details to reach a business.</p></article><article class="step"><span class="step-no">03</span><div class="step-icon">↗</div><h3>Grow</h3><p>Business owners can submit a listing for review and help more people discover their work.</p></article></div>
+    </section>
+
+    <section class="join-band"><div><div class="eyebrow light"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER</div><h2>Your next opportunity<br>starts with <em>a connection.</em></h2></div><button class="button button-cream" data-open-modal>List your business <span>↗</span></button></section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main"><a class="brand brand-footer" href="#home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>NEXORA<span class="brand-dot">.</span><small>OPPORTUNITY NETWORK</small></span></a><p>Connecting People. Creating Opportunities.<br>Transforming Economies.</p><a class="footer-top" href="#home">BACK TO TOP ↑</a></div>
+    <div class="footer-links"><div><span>EXPLORE</span><a href="#businesses">Businesses</a><a href="#categories">Marketplace</a><a href="#categories">Agriculture <small>Coming soon</small></a><a href="#categories">Skills <small>Coming soon</small></a></div><div><span>ABOUT</span><a href="#about">Our mission</a><a href="#how">How it works</a><a href="#contact">Contact</a></div><div><span>INFORMATION</span><a href="#privacy" data-info="Privacy Policy">Privacy policy</a><a href="#terms" data-info="Terms of Service">Terms of service</a></div></div>
+    <div class="footer-bottom" id="contact"><span>© <span id="year"></span> NEXORA. Built for possibility.</span><span>Made with ambition in Nigeria <b>✳</b></span></div>
+  </footer>
+
+  <dialog id="businessModal" class="modal">
+    <form id="businessForm" method="dialog" novalidate>
+      <div class="modal-head"><div><div class="eyebrow"><span class="eyebrow-line"></span> JOIN THE DIRECTORY</div><h2>Put your business<br><em>on the map.</em></h2></div><button type="button" class="modal-close" id="closeModal" aria-label="Close form">×</button></div>
+      <p class="modal-note">Submit your details for review. This preview does not send or save submissions to a server.</p>
+      <label>Business name *<input name="businessName" required maxlength="100" placeholder="e.g. Your Business Name"></label>
+      <div class="form-row"><label>Category *<select name="category" required><option value="">Choose category</option><option>Fashion & Clothing</option><option>Food & Restaurants</option><option>Technology & Digital Services</option><option>Beauty & Personal Care</option><option>Construction & Building</option><option>Agriculture</option><option>Education & Training</option><option>Retail & Shopping</option><option>Professional Services</option><option>Other Services</option></select></label><label>State *<input name="state" required placeholder="e.g. Oyo"></label></div>
+      <div class="form-row"><label>City *<input name="city" required placeholder="e.g. Ibadan"></label><label>Public phone *<input name="phone" required type="tel" placeholder="+234..."></label></div>
+      <label>Business description *<textarea name="description" required rows="3" maxlength="500" placeholder="Tell people what you offer"></textarea></label>
+      <label>WhatsApp number (optional)<input name="whatsapp" type="tel" placeholder="+234..."></label>
+      <label>Contact email *<input name="email" type="email" required placeholder="you@example.com"></label>
+      <div class="form-actions"><button type="button" class="button button-light" id="cancelModal">Cancel</button><button type="submit" class="button button-dark">Validate submission <span>↗</span></button></div>
+      <div id="formFeedback" class="form-feedback" role="status" aria-live="polite"></div>
+    </form>
+  </dialog>
+  <dialog id="infoModal" class="modal info-modal"><button type="button" class="modal-close" id="closeInfo" aria-label="Close information">×</button><div class="eyebrow"><span class="eyebrow-line"></span> NEXORA INFORMATION</div><h2 id="infoTitle">Information</h2><p id="infoText"></p><p class="modal-note">This is starter text for the preview. Before public launch, review and adapt the policy to your actual data practices and applicable Nigerian law.</p></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
